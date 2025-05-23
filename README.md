@@ -1,7 +1,7 @@
 # BERT_based_framework_for_ACC
 * Code and instructions for our paper: SCIE Journal with editor (2025-May)
 # Introduction
-The Spacegraph dataset was created using 307 two-dimensional (2D) floor plans representing three building types: schools, apartments, and office buildings. We gathered the 2D floor plan images through the Google search engine. A custom tagging system was developed to semantically annotate the functional spaces and their relationships directly on the 2D floor plan images. Subsequently, we developed the NE-Graph-BERT model, which leverages edge features to enhance node features and can be employed to automatically identify different types of functional spaces.
+This study introduces a novel approach to Automated Compliance Checking (ACC) that integrates a BERT-based framework with Graph Neural Networks (GNNs), specifically designed for building compliance in the Architecture, Engineering, and Construction (AEC) industry. The framework leverages the Building Fire Spatial Information Ontology (BFSO) for regulatory knowledge representation, aligning regulatory concepts with BIM data through BERT's semantic consistency capabilities. The GNNs, built upon the same BERT architecture, process the generated graph datasets to predict compliance by analyzing spatial relationships between building elements. This unified approach addresses the complexity of regulatory language and enhances the scalability and adaptability of ACC systems.
 
 # BFSO ontology development and annotation
 Customized semantic annotation tools
@@ -66,10 +66,10 @@ Run the command "python script_4_evaluation_plots.py" for plots drawing and resu
 
 
 # Citation
-    @inproceedings{
+    @onproceedings{
 	    author={Chen, Y. and Jiang, H.},
-	    doi={https://doi.org/10.1016/j.engappai.2025.110365},
-	    journal={Engineering Applications of Artificial Intelligence},
+	    doi={},
+	    journal={},
 	    year={2025},
     }
 
