@@ -12,6 +12,9 @@ Additionally, the following video demonstrates the semantic annotation process a
 
 
 
+https://github.com/user-attachments/assets/afc19439-5896-4eb5-901b-18ed0e64380c
+
+
 
  
  
