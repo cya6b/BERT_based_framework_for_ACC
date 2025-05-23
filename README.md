@@ -20,6 +20,10 @@ https://github.com/user-attachments/assets/d34cd171-4b97-4f97-8f18-87160b40b8f0
     
     ├── 7_building_node&link    // Contains seven real-world BIM models in IFC format files, as well as a graph dataset (node&link) generated for GNNs compliance checking based on semantic consistency results.
 
+    ├── BFSO_ontology    //In addition to containing the ontology OWL file, it also includes the textual monads of the natural language description, the results of the semantic annotation, and the expressions of the subject-predicate-object (SPO) triples.
+
+    ├── IFC_ontology    //This collection contains seven ontology files of real-world BIM models, which are stored in the .ttl format.
+
     ├── code              // Core Code Documentation
 
     │   ├── MethodWLNodeColoring.py (for WL code computing)
@@ -36,7 +40,7 @@ https://github.com/user-attachments/assets/d34cd171-4b97-4f97-8f18-87160b40b8f0
 
     ├── script_2_pre_train.py             // For pre-training the BGCC.
 
-    ├── script_3_fine_tuning.py             // As the entry point to run the BGCC model on node classification.
+    ├── script_3_fine_tuning.py             // As the entry point for executing the BGCC model on the automated compliance checking task.
 
     └── script_4_evaluation_plots.py             // Plots drawing and results evaluation purposes.
  
@@ -65,7 +69,7 @@ Run the command "python script_1_preprocess.py" to compute node WL code, intimac
 
     python script_1_preprocess.py
 
-Run the command "python script_3_fine_tuning.py" as the entry point to run the model on BIM spatial recognition.
+Run the command "python script_3_fine_tuning.py" as the entry point to run the model on BIM automated compliance checking.
 
     python script_3_fine_tuning.py
 
