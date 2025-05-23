@@ -5,7 +5,10 @@ This study introduces a novel approach to Automated Compliance Checking (ACC) th
 
 # BFSO ontology development and annotation
 The development and annotation of the Building Fire Spatial Information Ontology (BFSO) are based on a BERT-based model that automates the generation of the ontology. The model employs an entity-relationship joint extraction approach, where it automatically identifies entities and relationships within regulatory texts. The model was trained for 60 epochs, and the results of the model's performance can be accessed through the following link:
+
 https://github.com/cya6b/Rule-interpretation-for-fire-safety-ontology/tree/main/model%20result%20documents
+
+Additionally, the following video demonstrates the semantic annotation process applied to single sentences of regulatory text. Using class and attribute labels, the entities and relationships within each sentence are annotated, with the annotated results serving as a gold standard dataset for training the BERT-based entity-relationship extraction model in the BFSO construction process.
 
 
  
