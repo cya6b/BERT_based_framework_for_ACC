@@ -8,7 +8,7 @@ The development and annotation of the Building Fire Spatial Information Ontology
 
 https://github.com/cya6b/Rule-interpretation-for-fire-safety-ontology/tree/main/model%20result%20documents
 
-Additionally, the following video demonstrates the semantic annotation process applied to single sentences of regulatory text. Using class and attribute labels, the entities and relationships within each sentence are annotated, with the annotated results serving as a gold standard dataset for training the BERT-based entity-relationship extraction model in the BFSO construction process.
+Additionally, the following video demonstrates the semantic annotation process applied to single sentences of regulatory text. Using class and attribute labels, the entities and relationships within each sentence are annotated, with the annotated results serving as a gold standard dataset for training the BERT-based entity-relationship extraction model in the BFSO construction process.semantic annotation tools: doccano
 
 https://github.com/user-attachments/assets/d34cd171-4b97-4f97-8f18-87160b40b8f0
 
@@ -18,23 +18,25 @@ https://github.com/user-attachments/assets/d34cd171-4b97-4f97-8f18-87160b40b8f0
 # Catalog Structure Description
     ├── ReadMe.md           // help file
     
-    ├── dataset    // This section contains SpaceGraph's final JSON format files, along with the original 2D flat image files.
+    ├── 7_building_node&link    // Contains seven real-world BIM models in IFC format files, as well as a graph dataset (node&link) generated for GNNs compliance checking based on semantic consistency results.
 
     ├── code              // Core Code Documentation
 
-    │   ├── MethodWLENodeColoring.py (for WLE code computing)
+    │   ├── MethodWLNodeColoring.py (for WL code computing)
 
     │   ├── MethodGraphBatching.py (for subgraph batching)
 
     │   ├── MethodHopDistance.py (for hop distance computing)
+
+    │   ├── MethodBGCC.py (for BGCC model)
     
-    ├── result             // Contains subgraph batch results, WLE results, Hop embedding results, and pre-trained models.
+    ├── result             // Contains subgraph batch results, WL results, Hop embedding results, and pre-trained BGCC models.
 
-    ├── script_1_preprocess.py             // Compute node WLE code, intimacy based subgraph batch, node hop distance.
+    ├── script_1_preprocess.py             // Compute node WL code, intimacy based subgraph batch, node hop distance.
 
-    ├── script_2_pre_train.py             // For pre-training the NE-Graph-BERT.
+    ├── script_2_pre_train.py             // For pre-training the BGCC.
 
-    ├── script_3_fine_tuning.py             // As the entry point to run the model on node classification.
+    ├── script_3_fine_tuning.py             // As the entry point to run the BGCC model on node classification.
 
     └── script_4_evaluation_plots.py             // Plots drawing and results evaluation purposes.
  
