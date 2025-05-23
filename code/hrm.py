@@ -259,15 +259,3 @@ stop_words = set(["的", "了", "在", "是", "和"])
 # 运行处理
 process_custom_dataset_with_context(dataset_path, ifc_entity_file_path, ifc_relation_file_path, stop_words, model,
                                     tokenizer)
-
-
-
-
-
-
-
-
-
-
-
-
