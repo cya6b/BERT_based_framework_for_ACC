@@ -69,7 +69,7 @@ Run the command "python script_1_preprocess.py" to compute node WL code, intimac
 
     python script_1_preprocess.py
 
-Run the command "python script_3_fine_tuning.py" as the entry point to run the model on BIM automated compliance checking.
+Run the command "python script_3_fine_tuning.py" as the entry point to run the BGCC on BIM automated compliance checking.
 
     python script_3_fine_tuning.py
 
