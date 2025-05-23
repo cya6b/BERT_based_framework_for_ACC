@@ -26,6 +26,8 @@ https://github.com/user-attachments/assets/d34cd171-4b97-4f97-8f18-87160b40b8f0
 
     ├── code              // Core Code Documentation
 
+    │   ├── hrm.py (a high-recall candidate phrase generation method)
+
     │   ├── MethodWLNodeColoring.py (for WL code computing)
 
     │   ├── MethodGraphBatching.py (for subgraph batching)
