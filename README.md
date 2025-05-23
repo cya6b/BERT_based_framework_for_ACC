@@ -8,7 +8,7 @@ The development and annotation of the Building Fire Spatial Information Ontology
 
 https://github.com/cya6b/Rule-interpretation-for-fire-safety-ontology/tree/main/model%20result%20documents
 
-Additionally, the following video demonstrates the semantic annotation process applied to single sentences of regulatory text. Using class and attribute labels, the entities and relationships within each sentence are annotated, with the annotated results serving as a gold standard dataset for training the BERT-based entity-relationship extraction model in the BFSO construction process.semantic annotation tools: doccano
+Additionally, the following video demonstrates the semantic annotation process applied to single sentences of regulatory text. Using class and attribute labels, the entities and relationships within each sentence are annotated, with the annotated results serving as a gold standard dataset for training the BERT-based entity-relationship extraction model in the BFSO construction process. semantic annotation tools: doccano.
 
 https://github.com/user-attachments/assets/d34cd171-4b97-4f97-8f18-87160b40b8f0
 
