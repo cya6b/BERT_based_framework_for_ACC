@@ -1,7 +1,7 @@
 # BERT_based_framework_for_ACC
 * Code and instructions for our paper: SCIE Journal with editor (2025-May)
 # Introduction
-This study introduces a novel approach to Automated Compliance Checking (ACC) that integrates a BERT-based framework with Graph Neural Networks (GNNs), specifically designed for building compliance in the Architecture, Engineering, and Construction (AEC) industry. The framework leverages the Building Fire Spatial Information Ontology (BFSO) for regulatory knowledge representation, aligning regulatory concepts with BIM data through BERT's semantic consistency capabilities. The GNNs, built upon the same BERT architecture, process the generated graph datasets to predict compliance by analyzing spatial relationships between building elements. This unified approach addresses the complexity of regulatory language and enhances the scalability and adaptability of ACC systems.
+This study introduces a novel approach to Automated Compliance Checking (ACC) that integrates a BERT-based framework with Graph Neural Networks (GNNs), specifically designed for building compliance in the Architecture, Engineering, and Construction (AEC) industry. The framework leverages the Building Fire Spatial Information Ontology (BFSO) for regulatory knowledge representation, aligning regulatory concepts with BIM data through BERT's semantic alignment capabilities. The GNNs, built upon the same BERT architecture, process the generated graph datasets to predict compliance by analyzing spatial relationships between building elements. This unified approach addresses the complexity of regulatory language and enhances the scalability and adaptability of ACC systems.
 
 # BFSO ontology development and annotation
 The development and annotation of the Building Fire Spatial Information Ontology (BFSO) are based on a BERT-based model that automates the generation of the ontology. The model employs an entity-relationship joint extraction approach, where it automatically identifies entities and relationships within regulatory texts. The model was trained for 60 epochs, and the results of the model's performance can be accessed through the following link:
@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/afc19439-5896-4eb5-901b-18ed0e64380c
 # Catalog Structure Description
     ├── ReadMe.md           // help file
     
-    ├── 7_building_node&link    // Contains seven real-world BIM models in IFC format files, as well as a graph dataset (node&link) generated for GNNs compliance checking based on semantic consistency results.
+    ├── 7_building_node&link    // Contains seven real-world BIM models in IFC format files, as well as a graph dataset (node&link) generated for GNNs compliance checking based on semantic alignment results.
 
     ├── BFSO_ontology    //In addition to containing the ontology OWL file, it also includes the textual monads of the natural language description, the results of the semantic annotation, and the expressions of the subject-predicate-object (SPO) triples.
 
